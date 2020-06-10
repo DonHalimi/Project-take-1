@@ -1,0 +1,285 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;;
+    background-color: #ebebeb;
+}
+
+h3{
+    font-size: 0.8em;
+    margin-bottom: 0px;
+    
+}
+
+h4{
+    font-size: 1em;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+/*------------------------------------------------ SOCIAL LINKS------------------------------------------------------------------*/
+
+.social-links{
+    display: flex;
+    justify-content: space-evenly;
+    float: right;
+    margin: 10px 8.5em 10px 0px
+}
+
+.social-link a{
+    color: gray;
+}
+
+.social-link h3{
+    margin-right: 1em;
+}
+
+
+/*------------------------------------------------ SOCIAL LINKS----------------------------------------------------------------*/
+
+
+/*------------------------------------------------NAVBAR----------------------------------------------------------------------*/
+
+
+.navbar{
+    display: flex;
+    height: 50px;
+    margin:auto;
+    width: 80%;
+    margin-bottom: 50px;
+    
+}
+.navbar-logo img{
+    height: 2.8vw;
+    width: 14vw;
+    margin-right: 4.5vw;
+
+}
+.navbar-list{
+    width: 700px;
+    justify-content: space-between;
+    display: flex;
+    background-color:#182235 ;
+    height: 2.7vw;
+    margin: 0%;
+    
+    padding: 1vw;
+    
+}
+
+.navbar-list ::after{
+    background: #182235;
+    content: '';
+    width: 100%;
+    right: -40%;
+    position: absolute;
+    height: 52px;
+    top: 0;
+    z-index: -1;
+}
+
+
+.navbar-link{
+    top 
+}
+
+.navbar-link a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.navbar-link a:hover{
+    color: #9FCFEB;
+    transition: all 0.3s ease;
+}
+
+.search-button img{
+    height: 2.8vw;
+    width: 2.5vw;
+    margin-top: -20px;
+    
+}
+/*------------------------------------------------NAVBAR---------------------------------------------------------------------*/
+
+/*--------------------------------------- This is for the carousel nav buttons--------------------------------------------- */
+
+.wrapper{
+    width:;
+    margin: 0px 10% 0px 10%;
+}
+
+.menu-navigation-upper{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 75%;
+}
+
+.menu-navigation-lower{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 80%; 
+    margin-bottom: 5em;
+}
+
+.menu-image{
+z-index: 999;
+margin-top: ;
+
+    
+}
+
+
+.Ithink-text{
+    margin-top: 10px;
+}
+.Student-text{
+    margin-top: 10px;
+}
+
+.menu-button{
+    height: 75px;
+    width: 150px;
+    text-align: center;
+    clip-path: polygon(90% 0, 100% 35%, 80% 100%, 20% 100%, 0 35%, 10% 0);
+    background-color: white;   
+    
+}
+
+.menu-button-wrapper  :hover{
+    background-color: #002c5f;
+    color: white;
+    transition-duration: 0.3s;
+}
+
+
+.menu-button-wrapper{
+    filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5));
+    transition-duration: 0.5s;
+    
+}
+
+.menu-button h3{
+    padding: 0.5em;
+    font-size: 0.9em;
+    font-weight: 700;
+}
+
+.menu-button a{
+    text-decoration: none;
+    color: #002c5f;
+
+}
+
+/*---------------------------------------------------LOGO ANIMATION--------------------------------------------------------*/
+.loadingWrapper{
+    height: 100px;
+    
+}
+
+.right {
+    position: relative;
+    left: 35px;
+    top: -40px;
+    transition: all 0.3s linear;
+    height: 130px;
+    width: 130px;
+
+}
+.left {
+    position: relative;
+    top: -55px;
+    left:105px;
+    transition: all 0.3s linear;
+    height: 130px;
+    width: 130px;
+}
+
+.bottom {
+    position: relative;
+    top: 8px;
+    left: -135px;
+    transition: all 0.3s linear;
+    height: 120px;
+    width: 120px;
+}
+
+.animateLogoLeft {
+    transform: translate(-50px, -30px);
+
+}
+
+.animateLogoRight {
+    transform: translate(50px, -30px);
+}
+
+.animateLogoBottom {
+    transform: translateY(50px);
+}
+/*---------------------------------------------------LOGO ANIMATION--------------------------------------------------------*/
+
+/* -----------------------------------------This is for the carousel nav buttons ----------------------------------------------*/
+
+
+
+
+
+
+/*------------------------------------------This is for the CAROUSEL----------------------------------------------------------*/
+
+.carousel-wrapper{
+    margin: auto;
+    width: 60%;
+    margin-bottom: 5em;
+}
+
+.academy{
+    background-color: #002c5f;
+    height: 150px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.academy-innertext{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%)  translateY(-50%);    
+}
+.academy-innertext h4{
+   font-weight: bold;
+   color:white; 
+}
+
+.tuition{
+    background-image: url(https://www.sedc.mk/wp-content/uploads/2017/02/SEDC-SHift-web-bg-Master.jpg) ;
+}
+
+.programming{
+    background-image: url(https://www.sedc.mk/wp-content/uploads/2016/07/SEDC-SHift-web-bg-Code.jpg);
+}
+
+.networks{
+    background-image: url(images/networks.PNG);
+}
+
+.software{
+    background-image: url(images/settings-seo-and-web-svgrepo-com.svg);
+}
+
+
+.design{
+    background-image: url(images/design1.PNG);
+}
+
+.academy-carousel{
+    margin: 3em 0em 3em 0em;
+}
+
+/*------------------------------------------This is for the CAROUSEL----------------------------------------------------------*/
